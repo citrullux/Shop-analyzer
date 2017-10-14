@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Indicators
 {
-    public class Indicators
+    public class EconIndicators
     {
-        public Indicators()
+        public EconIndicators()
         {
+            MonthSave = 1;
             HostingPay = 1;
             ProgrammerPay = 1;
             ClientManagerPay = 1;
@@ -36,6 +37,27 @@ namespace Indicators
         public double ClientManagerPay { get; set; }
         [System.ComponentModel.DisplayName("Реклама и продвижение")]
         public double PromotionPay { get; set; }
+
+    }
+
+    public class InternIndicators
+    {
+        [System.ComponentModel.DisplayName("Коэффициэнт конверсии интернет магазина")]
+        public double NumOfBuy { get; set; }
+        [System.ComponentModel.DisplayName("Коэффициент отказов")]
+        public double NumOfRegret { get; set; }
+        [System.ComponentModel.DisplayName("Число товаров в заказе")]
+        public double NumOfMerch { get; set; }
+        [System.ComponentModel.DisplayName("Средняя стоимость заказа")]
+        public double MiddleCost { get; set; }
+        [System.ComponentModel.DisplayName("% завершения заполнения формы")]
+        public double LidGen { get; set; }
+        [System.ComponentModel.DisplayName("% не заверщённых заполнений формы")]
+        public double LidRegret { get; set; }
+        [System.ComponentModel.DisplayName("")]
+        public double NumOfRegret { get; set; }
+        [System.ComponentModel.DisplayName("")]
+        public double NumOfRegret { get; set; }
 
     }
 
