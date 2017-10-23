@@ -8,6 +8,7 @@ namespace Indicators
 {
     public class EconIndicators
     {
+
         public EconIndicators()
         {
             MonthSave = 1;
@@ -54,10 +55,12 @@ namespace Indicators
         public double LidGen { get; set; }
         [System.ComponentModel.DisplayName("% не заверщённых заполнений формы")]
         public double LidRegret { get; set; }
-        [System.ComponentModel.DisplayName("")]
-        public double NumOfRegret { get; set; }
-        [System.ComponentModel.DisplayName("")]
-        public double NumOfRegret { get; set; }
+        [System.ComponentModel.DisplayName("Всего лидов за месяц")]
+        public double LidMonth { get; set; }
+        [System.ComponentModel.DisplayName("Запросы доп. информации")]
+        public double AddInfo { get; set; }
+        [System.ComponentModel.DisplayName("Показатель конверсии")]
+        public double ConvSign { get; set; }
 
     }
 
