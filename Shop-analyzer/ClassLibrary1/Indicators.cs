@@ -32,7 +32,7 @@ namespace Indicators
         public double EconEffic { get { return MonthSave / MonthCost; } }
         [System.ComponentModel.DisplayName("Затраты на хостинг")]
         public double HostingPay { get; set; }
-        [System.ComponentModel.DisplayName("Зармлата програмиста")]
+        [System.ComponentModel.DisplayName("Зарплата програмиста")]
         public double ProgrammerPay { get; set; }
         [System.ComponentModel.DisplayName("Зарплата клиент-менеджера")]
         public double ClientManagerPay { get; set; }
@@ -64,7 +64,18 @@ namespace Indicators
 
     }
 
-    public class BuyerIndicators
+    public class Users
+    {
+        [System.ComponentModel.DisplayName("Поисковая система из которой прищёл")]
+        public string SearchSystem { get; set; }
+        [System.ComponentModel.DisplayName("Логин")]
+        public string Login { get; set; }
+        [System.ComponentModel.DisplayName("Зарегистрирован")]
+        public DateTime Registered { get; set; }
+
+    }
+
+    public class OrderIndicators
     {
         [System.ComponentModel.DisplayName("Поисковая система")]
         public string SearchSystem { get; set; }
@@ -80,5 +91,26 @@ namespace Indicators
         public bool InfoAsked { get; set; }
 
     }
+
+    public class SignIndicators
+    {
+        [System.ComponentModel.DisplayName("Конверсия (посещения в деньги)")]
+        public double Conversion { get; set; }
+        [System.ComponentModel.DisplayName("Стоимость конверсии")]
+        public double ConversionCost { get; set; }
+        [System.ComponentModel.DisplayName("Рентабельность инвестиций")]
+        public double RoI { get; set; }
+        [System.ComponentModel.DisplayName("Средний уровень закрытия лида")]
+        public double AverageLidClose { get; set; }
+        [System.ComponentModel.DisplayName("Стоимость приобретения клиента")]
+        public double CustomerCost { get; set; }
+        [System.ComponentModel.DisplayName("Самоокупаемость")]
+        public double CustomerPay { get; set; }
+        [System.ComponentModel.DisplayName("Пожизненная ценность")]
+        public double LifetimePay { get; set; }
+
+
+    }
+
 
 }
