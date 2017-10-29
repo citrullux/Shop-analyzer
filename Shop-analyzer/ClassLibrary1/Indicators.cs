@@ -48,7 +48,7 @@ namespace Indicators
         [System.ComponentModel.DisplayName("Коэффициент отказов")]
         public double NumOfRegret { get; set; }
         [System.ComponentModel.DisplayName("Число товаров в заказе")]
-        public double NumOfMerch { get; set; }
+        public int NumOfMerch { get; set; }
         [System.ComponentModel.DisplayName("Средняя стоимость заказа")]
         public double MiddleCost { get; set; }
         [System.ComponentModel.DisplayName("% завершения заполнения формы")]
@@ -61,6 +61,23 @@ namespace Indicators
         public double AddInfo { get; set; }
         [System.ComponentModel.DisplayName("Показатель конверсии")]
         public double ConvSign { get; set; }
+
+    }
+
+    public class BuyerIndicators
+    {
+        [System.ComponentModel.DisplayName("Поисковая система")]
+        public string SearchSystem { get; set; }
+        [System.ComponentModel.DisplayName("Логин")]
+        public string Login { get; set; }
+        [System.ComponentModel.DisplayName("Заверщённость заказа (Лид)")]
+        public bool IsLid { get; set; }
+        [System.ComponentModel.DisplayName("Количество товаров в заказе")]
+        public int NumMerch { get; set; }
+        [System.ComponentModel.DisplayName("Стоимость заказа")]
+        public double Cost { get; set; }
+        [System.ComponentModel.DisplayName("Запрос доп информации")]
+        public bool InfoAsked { get; set; }
 
     }
 
