@@ -109,7 +109,6 @@ namespace Indicators
         [System.ComponentModel.DisplayName("Пожизненная ценность")]
         public double LifetimePay { get; set; }
 
-
     }
 
 
