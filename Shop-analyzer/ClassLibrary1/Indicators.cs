@@ -64,7 +64,7 @@ namespace Indicators
 
     }
 
-    public class Users
+    public class UserIndicators
     {
         [System.ComponentModel.DisplayName("Поисковая система из которой прищёл")]
         public string SearchSystem { get; set; }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Shop_analyzer
 {
-    public partial class Form1 : Form
+    public partial class AddOrder : Form
     {
-        public Form1()
+        public AddOrder()
         {
             InitializeComponent();
         }
