@@ -1,0 +1,6 @@
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\obj\Debug\Indicators.csprojResolveAssemblyReference.cache
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\obj\Debug\Indicators.csproj.CoreCompileInputs.cache
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

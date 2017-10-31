@@ -35,17 +35,17 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataEcons = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDelOrder = new System.Windows.Forms.Button();
+            this.btnAddOrder = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnDelUser = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnDelEcon = new System.Windows.Forms.Button();
+            this.btnAddEcon = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnCalc = new System.Windows.Forms.Button();
+            this.btnGraphs = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataUsers)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -120,8 +120,8 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button2);
-            this.groupBox4.Controls.Add(this.button1);
+            this.groupBox4.Controls.Add(this.btnDelOrder);
+            this.groupBox4.Controls.Add(this.btnAddOrder);
             this.groupBox4.Location = new System.Drawing.Point(642, 293);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox4.Name = "groupBox4";
@@ -130,28 +130,28 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Управление заказами";
             // 
-            // button2
+            // btnDelOrder
             // 
-            this.button2.Location = new System.Drawing.Point(7, 62);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDelOrder.Location = new System.Drawing.Point(7, 62);
+            this.btnDelOrder.Name = "btnDelOrder";
+            this.btnDelOrder.Size = new System.Drawing.Size(75, 23);
+            this.btnDelOrder.TabIndex = 1;
+            this.btnDelOrder.Text = "Удалить";
+            this.btnDelOrder.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAddOrder
             // 
-            this.button1.Location = new System.Drawing.Point(7, 33);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Добавить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAddOrder.Location = new System.Drawing.Point(7, 33);
+            this.btnAddOrder.Name = "btnAddOrder";
+            this.btnAddOrder.Size = new System.Drawing.Size(75, 23);
+            this.btnAddOrder.TabIndex = 0;
+            this.btnAddOrder.Text = "Добавить";
+            this.btnAddOrder.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.button3);
-            this.groupBox5.Controls.Add(this.button4);
+            this.groupBox5.Controls.Add(this.btnDelUser);
+            this.groupBox5.Controls.Add(this.btnAddUser);
             this.groupBox5.Location = new System.Drawing.Point(752, 293);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox5.Name = "groupBox5";
@@ -160,28 +160,30 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Управление пользователями";
             // 
-            // button3
+            // btnDelUser
             // 
-            this.button3.Location = new System.Drawing.Point(7, 62);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 23);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Удалить";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDelUser.Location = new System.Drawing.Point(7, 62);
+            this.btnDelUser.Name = "btnDelUser";
+            this.btnDelUser.Size = new System.Drawing.Size(96, 23);
+            this.btnDelUser.TabIndex = 1;
+            this.btnDelUser.Text = "Удалить";
+            this.btnDelUser.UseVisualStyleBackColor = true;
+            this.btnDelUser.Click += new System.EventHandler(this.btnDelUser_Click);
             // 
-            // button4
+            // btnAddUser
             // 
-            this.button4.Location = new System.Drawing.Point(7, 33);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 23);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Добавить";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAddUser.Location = new System.Drawing.Point(7, 33);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(96, 23);
+            this.btnAddUser.TabIndex = 0;
+            this.btnAddUser.Text = "Добавить";
+            this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.button5);
-            this.groupBox6.Controls.Add(this.button6);
+            this.groupBox6.Controls.Add(this.btnDelEcon);
+            this.groupBox6.Controls.Add(this.btnAddEcon);
             this.groupBox6.Location = new System.Drawing.Point(886, 293);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox6.Name = "groupBox6";
@@ -190,28 +192,28 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Управление показателями";
             // 
-            // button5
+            // btnDelEcon
             // 
-            this.button5.Location = new System.Drawing.Point(7, 62);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 23);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Удалить";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDelEcon.Location = new System.Drawing.Point(7, 62);
+            this.btnDelEcon.Name = "btnDelEcon";
+            this.btnDelEcon.Size = new System.Drawing.Size(96, 23);
+            this.btnDelEcon.TabIndex = 1;
+            this.btnDelEcon.Text = "Удалить";
+            this.btnDelEcon.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnAddEcon
             // 
-            this.button6.Location = new System.Drawing.Point(7, 33);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 23);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Добавить";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnAddEcon.Location = new System.Drawing.Point(7, 33);
+            this.btnAddEcon.Name = "btnAddEcon";
+            this.btnAddEcon.Size = new System.Drawing.Size(96, 23);
+            this.btnAddEcon.TabIndex = 0;
+            this.btnAddEcon.Text = "Добавить";
+            this.btnAddEcon.UseVisualStyleBackColor = true;
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.button8);
-            this.groupBox7.Controls.Add(this.button7);
+            this.groupBox7.Controls.Add(this.btnCalc);
+            this.groupBox7.Controls.Add(this.btnGraphs);
             this.groupBox7.Location = new System.Drawing.Point(649, 390);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(1);
             this.groupBox7.Name = "groupBox7";
@@ -220,25 +222,25 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Рассчёт показателей";
             // 
-            // button8
+            // btnCalc
             // 
-            this.button8.Location = new System.Drawing.Point(6, 19);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(172, 23);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Рассчитать показатели";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnCalc.Location = new System.Drawing.Point(6, 19);
+            this.btnCalc.Name = "btnCalc";
+            this.btnCalc.Size = new System.Drawing.Size(172, 23);
+            this.btnCalc.TabIndex = 2;
+            this.btnCalc.Text = "Рассчитать показатели";
+            this.btnCalc.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnGraphs
             // 
-            this.button7.Location = new System.Drawing.Point(184, 19);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(156, 23);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "Построить графики";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnGraphs.Location = new System.Drawing.Point(184, 19);
+            this.btnGraphs.Name = "btnGraphs";
+            this.btnGraphs.Size = new System.Drawing.Size(156, 23);
+            this.btnGraphs.TabIndex = 1;
+            this.btnGraphs.Text = "Построить графики";
+            this.btnGraphs.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -252,7 +254,7 @@
             this.Controls.Add(this.groupBox1);
             this.MaximumSize = new System.Drawing.Size(1024, 600);
             this.MinimumSize = new System.Drawing.Size(1024, 600);
-            this.Name = "Form1";
+            this.Name = "MainWindow";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataUsers)).EndInit();
@@ -277,17 +279,17 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataEcons;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDelOrder;
+        private System.Windows.Forms.Button btnAddOrder;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnDelUser;
+        private System.Windows.Forms.Button btnAddUser;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnDelEcon;
+        private System.Windows.Forms.Button btnAddEcon;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnCalc;
+        private System.Windows.Forms.Button btnGraphs;
     }
 }
 

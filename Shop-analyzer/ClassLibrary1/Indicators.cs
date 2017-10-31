@@ -66,6 +66,12 @@ namespace Indicators
 
     public class UserIndicators
     {
+        public UserIndicators()
+        {
+            SearchSystem = "yandex";
+            Login = "IONA";
+            Registered = DateTime.Now;
+        }
         [System.ComponentModel.DisplayName("Поисковая система из которой прищёл")]
         public string SearchSystem { get; set; }
         [System.ComponentModel.DisplayName("Логин")]

@@ -2,9 +2,12 @@ C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bi
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\Shop-analyzer.exe
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\Shop-analyzer.pdb
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop-analyzer.csprojResolveAssemblyReference.cache
-C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.Form1.resources
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.Properties.Resources.resources
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop-analyzer.csproj.GenerateResource.Cache
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop-analyzer.csproj.CoreCompileInputs.cache
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop-analyzer.exe
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop-analyzer.pdb
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ClassLibrary1.dll
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ClassLibrary1.pdb
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddUser.resources
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.MainWindow.resources

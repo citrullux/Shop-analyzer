@@ -24,14 +24,48 @@ namespace Shop_analyzer
         public MainWindow()
         {
             InitializeComponent();
-            add_user = new AddUser();
-            Users = new BindingList<UserIndicators>();
             
-            //привязка, няяя.
+            // открытие окон
+            add_user = new AddUser();
+            add_order = new AddOrder();
+            add_econ = new AddEcon();
+
+            Users = new BindingList<UserIndicators>();
+            Orders = new BindingList<OrderIndicators>();
+            Econs = new BindingList<EconIndicators>();
+
+            //привязка Grid Driving Development
             dataUsers.DataSource = Users;
             dataOrders.DataSource = Orders;
             dataEcons.DataSource = Econs;
         }
 
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            //var ind = dataUsers.CurrentRow.Index;
+            //add_dialog.add = false;
+            add_user.ShowDialog();
+            if (add_user.save)
+            {
+                Users.Add(add_user.User);
+            }
+        }
+
+        private void btnDelUser_Click(object sender, EventArgs e)
+        {
+            {
+                // А есть ли что удалять?
+                if (dataUsers.RowCount == 0)
+                {
+                    return;
+                }
+                var ind = dataUsers.CurrentRow.Index;
+                Users.RemoveAt(ind);
+                // if (grid.RowCount == 0)
+                // {
+                //     ControlsEnabled(false);
+                // }
+            }
+        }
     }
 }
