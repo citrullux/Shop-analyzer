@@ -15,7 +15,7 @@ namespace Shop_analyzer
     {
         private BindingList<UserIndicators> Users;
         private BindingList<OrderIndicators> Orders;
-        private BindingList<SignIndicators> Sign;
+        private BindingList<EconIndicators> Econs;
 
         private AddUser add_user;
         private AddOrder add_order;
@@ -26,8 +26,12 @@ namespace Shop_analyzer
             InitializeComponent();
             add_user = new AddUser();
             Users = new BindingList<UserIndicators>();
+            
             //привязка, няяя.
             dataUsers.DataSource = Users;
+            dataOrders.DataSource = Orders;
+            dataEcons.DataSource = Econs;
         }
+
     }
 }
