@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.inEcon = new System.Windows.Forms.NumericUpDown();
+            this.inSave = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.inMonth = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,8 +42,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.inPromotion = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.inEcon)).BeginInit();
+            this.btnSave = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.inSave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inEn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inHost)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inProg)).BeginInit();
@@ -51,18 +51,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.inPromotion)).BeginInit();
             this.SuspendLayout();
             // 
-            // inEcon
+            // inSave
             // 
-            this.inEcon.DecimalPlaces = 2;
-            this.inEcon.Location = new System.Drawing.Point(173, 11);
-            this.inEcon.Maximum = new decimal(new int[] {
+            this.inSave.DecimalPlaces = 2;
+            this.inSave.Location = new System.Drawing.Point(173, 11);
+            this.inSave.Maximum = new decimal(new int[] {
             1410065408,
             2,
             0,
             0});
-            this.inEcon.Name = "inEcon";
-            this.inEcon.Size = new System.Drawing.Size(110, 20);
-            this.inEcon.TabIndex = 2;
+            this.inSave.Name = "inSave";
+            this.inSave.Size = new System.Drawing.Size(110, 20);
+            this.inSave.TabIndex = 2;
             // 
             // label1
             // 
@@ -199,21 +199,22 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Реклама и продвижение";
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Location = new System.Drawing.Point(201, 166);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Сохранить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSave.Location = new System.Drawing.Point(201, 166);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(82, 23);
+            this.btnSave.TabIndex = 16;
+            this.btnSave.Text = "Сохранить";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // AddEcon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(296, 198);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(296, 197);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.inPromotion);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.inCliManager);
@@ -227,12 +228,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.inMonth);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.inEcon);
+            this.Controls.Add(this.inSave);
             this.MaximumSize = new System.Drawing.Size(312, 236);
             this.MinimumSize = new System.Drawing.Size(312, 236);
             this.Name = "AddEcon";
             this.Text = "AddEcon";
-            ((System.ComponentModel.ISupportInitialize)(this.inEcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inSave)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inEn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inHost)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inProg)).EndInit();
@@ -245,7 +246,7 @@
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown inEcon;
+        private System.Windows.Forms.NumericUpDown inSave;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker inMonth;
         private System.Windows.Forms.Label label2;
@@ -259,6 +260,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.NumericUpDown inPromotion;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSave;
     }
 }

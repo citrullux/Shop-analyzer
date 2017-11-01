@@ -18,7 +18,7 @@ namespace Indicators
             PromotionPay = 1;
         }
         [System.ComponentModel.DisplayName("Месяц")]
-        public double Month { get; set; }
+        public DateTime Month { get; set; }
         [System.ComponentModel.DisplayName("Экономический эффект за месяц")]
         public double MonthEffect { get { return MonthSave - En * MonthCost; } }
         [System.ComponentModel.DisplayName("Экономия (Прибыль) за месяц")]
