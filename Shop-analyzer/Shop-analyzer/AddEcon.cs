@@ -22,13 +22,22 @@ namespace Shop_analyzer
         public AddEcon()
         {
             InitializeComponent();
+            
+            SetFormat();
+        }
+        public void SetFormat()
+        {
+            inMonth.Format = DateTimePickerFormat.Custom;
+            inMonth.CustomFormat = "MM/yyyy";
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            
             save = true;
 
             Econ = new EconIndicators();
+            
             //if (add) { User = new UserIndicators(); }
 
             Econ.MonthSave = (double)inSave.Value;

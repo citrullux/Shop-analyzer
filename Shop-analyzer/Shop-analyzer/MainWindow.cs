@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Indicators;
+using ZedGraph;
 
 namespace Shop_analyzer
 {
@@ -95,5 +96,32 @@ namespace Shop_analyzer
                 // }
             }
         }
+
+        private void btnAddEcon_Click(object sender, EventArgs e)
+        {
+            //var ind = dataUsers.CurrentRow.Index;
+            //add_dialog.add = false;
+            add_econ.ShowDialog();
+            if (add_econ.save)
+            {
+                Econs.Add(add_econ.Econ);
+            }
+        }
+
+        private void btnDelEcon_Click(object sender, EventArgs e)
+        {
+            // А есть ли что удалять?
+            if (dataEcons.RowCount == 0)
+            {
+                return;
+            }
+            var ind = dataEcons.CurrentRow.Index;
+            Econs.RemoveAt(ind);
+            // if (grid.RowCount == 0)
+            // {
+            //     ControlsEnabled(false);
+            // }
+        }
+
     }
 }

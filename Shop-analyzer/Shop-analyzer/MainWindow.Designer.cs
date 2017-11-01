@@ -202,6 +202,7 @@
             this.btnDelEcon.TabIndex = 1;
             this.btnDelEcon.Text = "Удалить";
             this.btnDelEcon.UseVisualStyleBackColor = true;
+            this.btnDelEcon.Click += new System.EventHandler(this.btnDelEcon_Click);
             // 
             // btnAddEcon
             // 
@@ -211,6 +212,7 @@
             this.btnAddEcon.TabIndex = 0;
             this.btnAddEcon.Text = "Добавить";
             this.btnAddEcon.UseVisualStyleBackColor = true;
+            this.btnAddEcon.Click += new System.EventHandler(this.btnAddEcon_Click);
             // 
             // groupBox7
             // 
