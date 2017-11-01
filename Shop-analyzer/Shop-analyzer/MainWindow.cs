@@ -67,5 +67,33 @@ namespace Shop_analyzer
                 // }
             }
         }
+
+        private void btnAddOrder_Click(object sender, EventArgs e)
+        {
+            //var ind = dataUsers.CurrentRow.Index;
+            //add_dialog.add = false;
+            add_order.ShowDialog();
+            if (add_order.save)
+            {
+                Orders.Add(add_order.Order);
+            }
+        }
+
+        private void btnDelOrder_Click(object sender, EventArgs e)
+        {
+            {
+                // А есть ли что удалять?
+                if (dataOrders.RowCount == 0)
+                {
+                    return;
+                }
+                var ind = dataOrders.CurrentRow.Index;
+                Orders.RemoveAt(ind);
+                // if (grid.RowCount == 0)
+                // {
+                //     ControlsEnabled(false);
+                // }
+            }
+        }
     }
 }

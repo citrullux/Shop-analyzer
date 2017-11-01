@@ -13,7 +13,7 @@ namespace Shop_analyzer
 {
     public partial class AddUser : Form
     {
-        // Стандартное поведение подразумавает добавление?
+        // Стандартное поведение подразумавает добавление
        // public bool add = true;
         
         // Сохранение формы, свойство :)

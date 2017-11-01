@@ -138,6 +138,7 @@
             this.btnDelOrder.TabIndex = 1;
             this.btnDelOrder.Text = "Удалить";
             this.btnDelOrder.UseVisualStyleBackColor = true;
+            this.btnDelOrder.Click += new System.EventHandler(this.btnDelOrder_Click);
             // 
             // btnAddOrder
             // 
@@ -147,6 +148,7 @@
             this.btnAddOrder.TabIndex = 0;
             this.btnAddOrder.Text = "Добавить";
             this.btnAddOrder.UseVisualStyleBackColor = true;
+            this.btnAddOrder.Click += new System.EventHandler(this.btnAddOrder_Click);
             // 
             // groupBox5
             // 

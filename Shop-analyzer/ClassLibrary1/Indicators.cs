@@ -17,7 +17,8 @@ namespace Indicators
             ClientManagerPay = 1;
             PromotionPay = 1;
         }
-
+        [System.ComponentModel.DisplayName("Месяц")]
+        public double Month { get; set; }
         [System.ComponentModel.DisplayName("Экономический эффект за месяц")]
         public double MonthEffect { get { return MonthSave - En * MonthCost; } }
         [System.ComponentModel.DisplayName("Экономия (Прибыль) за месяц")]
@@ -83,6 +84,8 @@ namespace Indicators
 
     public class OrderIndicators
     {
+        [System.ComponentModel.DisplayName("Дата заказа")]
+        public DateTime Date { get; set; }
         [System.ComponentModel.DisplayName("Поисковая система")]
         public string SearchSystem { get; set; }
         [System.ComponentModel.DisplayName("Логин")]

@@ -59,7 +59,7 @@
             this.inLogin.Location = new System.Drawing.Point(57, 61);
             this.inLogin.Name = "inLogin";
             this.inLogin.Size = new System.Drawing.Size(132, 20);
-            this.inLogin.TabIndex = 2;
+            this.inLogin.TabIndex = 5;
             // 
             // label2
             // 
@@ -84,10 +84,11 @@
             this.inSearch.Location = new System.Drawing.Point(129, 33);
             this.inSearch.Name = "inSearch";
             this.inSearch.Size = new System.Drawing.Size(155, 20);
-            this.inSearch.TabIndex = 5;
+            this.inSearch.TabIndex = 2;
             // 
             // btnSave
             // 
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Location = new System.Drawing.Point(195, 59);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(89, 23);

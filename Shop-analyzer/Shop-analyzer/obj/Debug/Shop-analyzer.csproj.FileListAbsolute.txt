@@ -11,3 +11,5 @@ C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bi
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ClassLibrary1.pdb
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddUser.resources
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.MainWindow.resources
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddOrder.resources
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddEcon.resources
