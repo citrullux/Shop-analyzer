@@ -14,6 +14,7 @@ C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\ob
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddOrder.resources
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.AddEcon.resources
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ZedGraph.dll
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ZedGraph.Web.dll
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\ZedGraph.xml
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\de\ZedGraph.resources.dll
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\es\ZedGraph.resources.dll
@@ -28,3 +29,4 @@ C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bi
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\tr\ZedGraph.resources.dll
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\zh-cn\ZedGraph.resources.dll
 C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Citrullux\Documents\GitHub\Shop-analyzer\Shop-analyzer\Shop-analyzer\obj\Debug\Shop_analyzer.Graphs.resources
